@@ -9,7 +9,7 @@ build:
     push: true
 
   artifacts:
-    - image: bes1815/client
+    - image: bes1815/micro-client
       context: client
       docker:
         dockerfile: Dockerfile
